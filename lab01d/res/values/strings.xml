@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Информация о студенте</string>
+    <string name="name1">Имя:</string>
+    <string name="name_details">Владимир</string>
+    <string name="surname">Фамилия:</string>
+    <string name="surname_details">Шалом</string>
+    <string name="group">Группа</string>
+    <string name="group_details">15-ИВТ2</string>
+    <string name="email">Эл. почта:</string>
+    <string name="email_details">headofgears@gmail.com</string>
+    <string name="phone_number">Номер тел.:</string>
+    <string name="phone_number_details">+7 (930) 720-76-78</string>
+    <string name="btnCall">Набрать студента</string>
+    <string name="btnGoInfoActivity">Activity life cycle info</string>
+    <string name="hintTest">123</string>
+</resources>
