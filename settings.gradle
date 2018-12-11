@@ -1,1 +1,1 @@
-include ':app', ':lab01', ':lab02', ':test', ':myapplication'
+include ':lab01', ':lab02', ':navmenutesting', ':myapplication', ':lab02u', ':lab02v2'

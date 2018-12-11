@@ -1,16 +1,17 @@
 package headofgears.lab01;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.support.v7.widget.Toolbar;
 
-public class MainActivity extends Activity implements View.OnClickListener{
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     private static final String TAG = "myLog";
     private static final String activityName = "MainActivity";
@@ -25,6 +26,10 @@ public class MainActivity extends Activity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Toolbar
+        Toolbar myToolBar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolBar);
+
         textPhNumbDetails = findViewById(R.id.textPhNumbDetails);
         textEmailDetails = findViewById(R.id.textEmailDetails);
         btnCall = findViewById(R.id.btnCall);
@@ -32,6 +37,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
         btnCall.setOnClickListener(this);
         Log.d(TAG, "INFO::SUCCESS::setOnClickListener()" + outputActivityName());
+
+
     }
 
     @Override

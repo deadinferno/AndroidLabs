@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/vScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:id="@+id/hScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/table_background_color">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element1"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="1"
+                        app:e_full_name="@string/hydrogen_f"
+                        app:e_short_name="@string/hydrogen_s"
+
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element2"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="3"
+                        app:e_full_name="@string/lithium_f"
+                        app:e_short_name="@string/lithium_s" />
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element4"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="4"
+                        app:e_full_name="@string/beryllium_f"
+                        app:e_short_name="@string/betyllium_s" />
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element5"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="5"
+                        app:e_full_name="@string/boron_f"
+                        app:e_short_name="@string/boron_s" />
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element6"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="6"
+                        app:e_full_name="@string/carbon_f"
+                        app:e_short_name="@string/carbon_s" />
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element7"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="7"
+                        app:e_full_name="@string/nitrogen_f"
+                        app:e_short_name="@string/nitrogen_s" />
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element8"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="8"
+                        app:e_full_name="@string/oxygen_f"
+                        app:e_short_name="@string/oxygen_s" />
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element9"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="9"
+                        app:e_full_name="@string/fluorine_f"
+                        app:e_short_name="@string/fluorine_s" />
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element10"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="10"
+                        app:e_full_name="@string/neon_f"
+                        app:e_short_name="@string/neon_s" />
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element11"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="666"
+                        app:e_full_name="@string/stub_f"
+                        app:e_short_name="@string/stub_s" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element12"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="11"
+                        app:e_full_name="@string/sodium_f"
+                        app:e_short_name="@string/sodium_s" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element13"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="19"
+                        app:e_full_name="@string/potassium_f"
+                        app:e_short_name="@string/potassium_s" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element14"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="29"
+                        app:e_full_name="@string/copper_f"
+                        app:e_short_name="@string/copper_s" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element15"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="37"
+                        app:e_full_name="@string/rubidium_f"
+                        app:e_short_name="@string/rubidium_s" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element16"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="47"
+                        app:e_full_name="@string/silver_f"
+                        app:e_short_name="@string/silver_s" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element17"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="55"
+                        app:e_full_name="@string/caesium_f"
+                        app:e_short_name="@string/caesium_s" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element18"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="79"
+                        app:e_full_name="@string/gold_f"
+                        app:e_short_name="@string/gold_s" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element19"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="87"
+                        app:e_full_name="@string/francium_f"
+                        app:e_short_name="@string/francium_s" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ru.startandroid.lab02v2.Element
+                        android:id="@+id/element20"
+                        android:layout_width="@dimen/element_def_size"
+                        android:layout_height="@dimen/element_def_size"
+                        app:e_atomic_number="111"
+                        app:e_full_name="@string/roentgenium_f"
+                        app:e_short_name="@string/roentgenium_s" />
+                </TableRow>
+
+            </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

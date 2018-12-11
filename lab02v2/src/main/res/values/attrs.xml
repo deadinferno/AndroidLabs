@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Element">
+
+        <attr name="e_atomic_number" format="integer"/>
+        <attr name="e_short_name" format="string"/>
+        <attr name="e_full_name" format="string"/>
+
+    </declare-styleable>
+</resources>

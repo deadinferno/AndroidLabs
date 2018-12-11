@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Periodic Table</string>
+
+    <string name="nav_menu_header">Заголовок енбать тя в сраку</string>
+    <string name="menu_item_tables">Tables</string>
+    <string name="menu_item_elements_list">Chemical elements list</string>
+    <string name="menu_item_settings">Settings</string>
+    <string name="menu_item_about">About</string>
+    <string name="menu_item_share">Share</string>
+
+
+    <string name="stub_f">Stub</string>
+    <string name="stub_s">St</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_cat_male">Кот</string>
+    <string name="action_cat_female">Кошка</string>
+    <string name="action_kitten">Котёнок</string>
+
+    <string name="hydrogen_f">Hydrogen</string>
+    <string name="hydrogen_s">H</string>
+    <string name="lithium_f">Lithium</string>
+    <string name="lithium_s">Li</string>
+    <string name="beryllium_f">Beryllium</string>
+    <string name="betyllium_s">Be</string>
+    <string name="boron_f">Boron</string>
+    <string name="boron_s">B</string>
+    <string name="carbon_f">Carbon</string>
+    <string name="carbon_s">C</string>
+    <string name="nitrogen_f">Nitrogen</string>
+    <string name="nitrogen_s">N</string>
+    <string name="oxygen_f">Oxygen</string>
+    <string name="oxygen_s">O</string>
+    <string name="fluorine_f">Fluorine</string>
+    <string name="fluorine_s">F</string>
+    <string name="neon_f">Neon</string>
+    <string name="neon_s">Ne</string>
+    <string name="sodium_f">Sodium</string>
+    <string name="sodium_s">Na</string>
+    <string name="potassium_f">Potassium</string>
+    <string name="potassium_s">K</string>
+    <string name="copper_f">Copper</string>
+    <string name="copper_s">Cu</string>
+    <string name="rubidium_f">Rubidium</string>
+    <string name="rubidium_s">Rb</string>
+    <string name="silver_f">Silver</string>
+    <string name="silver_s">Ag</string>
+    <string name="caesium_f">Caesium</string>
+    <string name="caesium_s">Cs</string>
+    <string name="gold_f">Gold</string>
+    <string name="gold_s">Au</string>
+    <string name="francium_f">Francium</string>
+    <string name="francium_s">Fr</string>
+    <string name="roentgenium_f">Roentgenium</string>
+    <string name="roentgenium_s">Rg</string>
+
+</resources>

@@ -23,7 +23,8 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="88" />
+                                                <entry key="scalingPercent" value="92" />
+                                                <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -33,7 +34,10 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="foregroundImage" value="S:\androidRepos\AndroidLabs\lab01\src\main\res\mipmap-xxxhdpi\ic_launcher.png" />
+                                      <entry key="backgroundLayerName" value="ic_nav_menu_background" />
+                                      <entry key="foregroundImage" value="C:\Users\heado\Desktop\icon.png" />
+                                      <entry key="foregroundLayerName" value="ic_nav_menu_foreground" />
+                                      <entry key="outputName" value="ic_nav_menu_default" />
                                       <entry key="previewDensity" value="HIGH" />
                                     </map>
                                   </option>
@@ -50,7 +54,19 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
+                                                <entry key="paddingPercent" value="15" />
                                                 <entry key="trimmed" value="true" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                      <entry key="clipartAsset">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/av/ic_add_to_queue_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -61,7 +77,18 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="paddingPercent" value="-5" />
+                                                <entry key="paddingPercent" value="5" />
+                                                <entry key="trimmed" value="true" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                      <entry key="text">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
                                                 <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
@@ -74,13 +101,51 @@
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
                                       <entry key="cropped" value="true" />
-                                      <entry key="iconShape" value="CIRCLE" />
-                                      <entry key="imageAsset" value="S:\androidRepos\AndroidLabs\lab01\src\main\res\mipmap-xxxhdpi\ic_launcher_new.png" />
+                                      <entry key="imageAsset" value="C:\Users\heado\Desktop\icon.png" />
+                                      <entry key="outputName" value="ic_nav_menu_default" />
                                     </map>
                                   </option>
                                 </PersistentState>
                               </value>
                             </entry>
+                          </map>
+                        </option>
+                      </PersistentState>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PersistentState>
+          </value>
+        </entry>
+        <entry key="vectorWizard">
+          <value>
+            <PersistentState>
+              <option name="children">
+                <map>
+                  <entry key="vectorAssetStep">
+                    <value>
+                      <PersistentState>
+                        <option name="children">
+                          <map>
+                            <entry key="clipartAsset">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/av/ic_fiber_manual_record_black_24dp.xml" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                        <option name="values">
+                          <map>
+                            <entry key="color" value="d10011" />
+                            <entry key="outputName" value="ic_menu_tables" />
+                            <entry key="sourceFile" value="C:\Users\heado\Desktop\baseline-build-24px.svg" />
                           </map>
                         </option>
                       </PersistentState>

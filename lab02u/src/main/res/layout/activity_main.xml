@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Use DrawerLayout as root container for activity -->
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <!-- Layout to contain contents of main body of screen (drawer will slide over this) -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+            <!-- app:menu="@menu/toolbar_view" -->
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <ScrollView
+                android:id="@+id/vScroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <HorizontalScrollView
+                    android:id="@+id/hScroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/table_background_color">
+
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp">
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element1"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="1"
+                                app:e_full_name="@string/hydrogen_f"
+                                app:e_short_name="@string/hydrogen_s"
+
+                                />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp">
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element2"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="3"
+                                app:e_full_name="@string/lithium_f"
+                                app:e_short_name="@string/lithium_s" />
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element4"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="4"
+                                app:e_full_name="@string/beryllium_f"
+                                app:e_short_name="@string/betyllium_s" />
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element5"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="5"
+                                app:e_full_name="@string/boron_f"
+                                app:e_short_name="@string/boron_s" />
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element6"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="6"
+                                app:e_full_name="@string/carbon_f"
+                                app:e_short_name="@string/carbon_s" />
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element7"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="7"
+                                app:e_full_name="@string/nitrogen_f"
+                                app:e_short_name="@string/nitrogen_s" />
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element8"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="8"
+                                app:e_full_name="@string/oxygen_f"
+                                app:e_short_name="@string/oxygen_s" />
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element9"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="9"
+                                app:e_full_name="@string/fluorine_f"
+                                app:e_short_name="@string/fluorine_s" />
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element10"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="10"
+                                app:e_full_name="@string/neon_f"
+                                app:e_short_name="@string/neon_s" />
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element11"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="666"
+                                app:e_full_name="@string/stub_f"
+                                app:e_short_name="@string/stub_s" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element12"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="11"
+                                app:e_full_name="@string/sodium_f"
+                                app:e_short_name="@string/sodium_s" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element13"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="19"
+                                app:e_full_name="@string/potassium_f"
+                                app:e_short_name="@string/potassium_s" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element14"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="29"
+                                app:e_full_name="@string/copper_f"
+                                app:e_short_name="@string/copper_s" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element15"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="37"
+                                app:e_full_name="@string/rubidium_f"
+                                app:e_short_name="@string/rubidium_s" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element16"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="47"
+                                app:e_full_name="@string/silver_f"
+                                app:e_short_name="@string/silver_s" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element17"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="55"
+                                app:e_full_name="@string/caesium_f"
+                                app:e_short_name="@string/caesium_s" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element18"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="79"
+                                app:e_full_name="@string/gold_f"
+                                app:e_short_name="@string/gold_s" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element19"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="87"
+                                app:e_full_name="@string/francium_f"
+                                app:e_short_name="@string/francium_s" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.dead.lab02u.Element
+                                android:id="@+id/element20"
+                                android:layout_width="@dimen/element_def_size"
+                                android:layout_height="@dimen/element_def_size"
+                                app:e_atomic_number="111"
+                                app:e_full_name="@string/roentgenium_f"
+                                app:e_short_name="@string/roentgenium_s" />
+                        </TableRow>
+
+                    </TableLayout>
+                </HorizontalScrollView>
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <!-- Container for contents of drawer - use NavigationView to make configuration easier -->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:menu="@menu/drawer_view"
+        app:headerLayout="@layout/nav_header"
+        />
+
+</android.support.v4.widget.DrawerLayout>
+
+
+    <!--
+
+    -   The FrameLayout is set to match the parent view's width and height, because it represents the entire UI when the navigation drawer is closed.
+    ========================================================================================================================================================
+    -   The NavigationView (the drawer) must specify its horizontal gravity with the android:layout_gravity attribute.
+    To support right-to-left (RTL) languages, specify the value with "start" instead of "left" (so the drawer appears on the right when the layout is RTL).
+    ========================================================================================================================================================
+    -   The NavigationView sets android:fitsSystemWindows to "true" to ensure the contents of the drawer don’t overlay the status bar and other system windows.
+    The DrawerLayout also uses fitsSystemWindows as a sign that it needs to inset its children (such as the main content view), but still draw the status bar
+    background in that space as per the material design specs (which defaults to your theme’s colorPrimaryDark).
+
+     -->
