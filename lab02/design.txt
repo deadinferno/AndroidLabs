@@ -1,0 +1,10 @@
+$Tables
+	@Solubility Table
+	@Polyaromatic carbons
+	@Properties of some alkanes
+	@Electrochemical series
+	@Main indicators of the color changes
+$Chemical elements list
+$Settings
+$About
+$Share
