@@ -13,38 +13,7 @@
                       <PersistentState>
                         <option name="children">
                           <map>
-                            <entry key="launcher">
-                              <value>
-                                <PersistentState>
-                                  <option name="children">
-                                    <map>
-                                      <entry key="foregroundImage">
-                                        <value>
-                                          <PersistentState>
-                                            <option name="values">
-                                              <map>
-                                                <entry key="scalingPercent" value="92" />
-                                                <entry key="trimmed" value="true" />
-                                              </map>
-                                            </option>
-                                          </PersistentState>
-                                        </value>
-                                      </entry>
-                                    </map>
-                                  </option>
-                                  <option name="values">
-                                    <map>
-                                      <entry key="backgroundLayerName" value="ic_nav_menu_background" />
-                                      <entry key="foregroundImage" value="C:\Users\heado\Desktop\icon.png" />
-                                      <entry key="foregroundLayerName" value="ic_nav_menu_foreground" />
-                                      <entry key="outputName" value="ic_nav_menu_default" />
-                                      <entry key="previewDensity" value="HIGH" />
-                                    </map>
-                                  </option>
-                                </PersistentState>
-                              </value>
-                            </entry>
-                            <entry key="launcherLegacy">
+                            <entry key="actionbar">
                               <value>
                                 <PersistentState>
                                   <option name="children">
@@ -54,7 +23,6 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="paddingPercent" value="15" />
                                                 <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
@@ -66,30 +34,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/av/ic_add_to_queue_black_24dp.xml" />
-                                              </map>
-                                            </option>
-                                          </PersistentState>
-                                        </value>
-                                      </entry>
-                                      <entry key="image">
-                                        <value>
-                                          <PersistentState>
-                                            <option name="values">
-                                              <map>
-                                                <entry key="paddingPercent" value="5" />
-                                                <entry key="trimmed" value="true" />
-                                              </map>
-                                            </option>
-                                          </PersistentState>
-                                        </value>
-                                      </entry>
-                                      <entry key="text">
-                                        <value>
-                                          <PersistentState>
-                                            <option name="values">
-                                              <map>
-                                                <entry key="trimmed" value="true" />
+                                                <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/image/ic_collections_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -99,15 +44,17 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="assetType" value="IMAGE" />
-                                      <entry key="cropped" value="true" />
-                                      <entry key="imageAsset" value="C:\Users\heado\Desktop\icon.png" />
-                                      <entry key="outputName" value="ic_nav_menu_default" />
+                                      <entry key="outputName" value="ic_test" />
                                     </map>
                                   </option>
                                 </PersistentState>
                               </value>
                             </entry>
+                          </map>
+                        </option>
+                        <option name="values">
+                          <map>
+                            <entry key="outputIconType" value="ACTIONBAR" />
                           </map>
                         </option>
                       </PersistentState>
@@ -133,7 +80,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/av/ic_fiber_manual_record_black_24dp.xml" />
+                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_turned_in_black_24dp.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -143,9 +90,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="d10011" />
-                            <entry key="outputName" value="ic_menu_tables" />
-                            <entry key="sourceFile" value="C:\Users\heado\Desktop\baseline-build-24px.svg" />
+                            <entry key="color" value="e1e1e1" />
+                            <entry key="outputName" value="ic_article_title" />
+                            <entry key="sourceFile" value="C:\Users\heado" />
                           </map>
                         </option>
                       </PersistentState>
